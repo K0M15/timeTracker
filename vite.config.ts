@@ -15,7 +15,7 @@ export default defineConfig({
                 clientsClaim: true,
                 skipWaiting: true
             },
-            includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
+            includeAssets: ['favicon-32x32.png'],
             manifest: {
                 name: 'Time Tracker',
                 short_name: 'TimeTracker',
