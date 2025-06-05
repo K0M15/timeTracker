@@ -6,6 +6,7 @@ export default defineConfig({
         host: true, // or use your local IP manually e.g., '192.168.1.100'
         port: 5173  // or any port you prefer
     },
+    base: '/timeTracker/',
     plugins:[
         VitePWA({
             registerType: 'autoUpdate',
